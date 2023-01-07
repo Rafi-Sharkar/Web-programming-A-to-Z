@@ -1,0 +1,25 @@
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.box3 {
+    background-color: rgb(11, 248, 169);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+    
+}
+.box2 {
+    background-color:blue;
+    z-index: 4;
+    position: relative;
+    top: -50px;
+    
+}
+.box1 {
+    background-color: purple;
+    z-index: 3;
+    position: relative;
+}

@@ -1,0 +1,26 @@
+/* 
+background-image, --->url, none
+background-position, ---> top-left, top-center, top right, center left, center center,center-right, bottom left, bottom right, x-% y-%, x-pos y-pos
+background-size, ---> length, %, auto, cover, contain
+background-repeat, --->repeat, repeat-x, repeat y, no-repeat
+background-attachment,---> scroll, fixed
+background-origin, ---> border-box, padding-box, content-box
+background-clip,---> length,% , border-box, padding-box, content-box, no-clip
+background-color, ---> color, transparent
+background-break, ---> baunding-box, each-box, continuous
+ */
+
+body {
+    size: 400px 600px;
+    background-image: url(img_1.png);
+    /* background-image: none; */
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-color: cadetblue;
+    background-size: cover;
+    
+}
+p {
+    background-color: blueviolet;
+    background-attachment: scroll;
+}
