@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+.box01 {
+    height: 100vh;
+    display: flex;
+
+    gap: 1rem;     /* create gap between two or more child div */
+
+    flex-direction: row;  
+      /*there have 4 value 
+      -->row (defult)
+      --> row-reverse
+      --> column
+      --> column- reverse
+        */
+
+    justify-content: start;
+    /* 
+    it work with horizontally
+    --> start (defult)
+    --> end
+    --> space around  ( take space around the div)
+    --> space between ( take gap between div )
+    --> space evenly (take same gap beside the div)\
+    --> center ( bring the div center)
+    */
+
+    align-items:flex-start;
+    /* 
+    it work with verticully.
+    */
+
+    flex-wrap: nowrap;
+    /* 
+    -->nowrap (defult)
+    -->wrap
+    -->wrap-reverse
+    */
+
+}
+
+.box01 div{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+/* 
+-->order
+--> flex-shrink
+--> flex-grow
+--> flex-basis
+*/
+
+.sub1{
+    flex-basis: 100px;
+    
+}
+.sub2{
+    flex-basis: 200px;
+}
+
+.sub3{
+    flex-basis: 300px;
+
+}
+
+/* 
+--> align-content
+--> flex-flow
+*/
+
+
+
